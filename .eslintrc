@@ -1,0 +1,13 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "jsx-a11y/href-no-hash": [0],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "quotes": ["error", "single"]
+  }
+}
